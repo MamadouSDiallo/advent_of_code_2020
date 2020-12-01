@@ -1,4 +1,4 @@
-use advent2020::day_01;
+use advent2020::{day_01, day_02};
 
 fn main() {
     println!("Advent Code 2020");
@@ -10,6 +10,6 @@ fn main() {
 
     // println!(
     //     "\nDay 02: xxx: {}",
-    //     day_01::challenge_02()
+    //     day_02::challenge_02()
     // );
 }

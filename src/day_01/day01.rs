@@ -6,7 +6,7 @@ pub fn challenge_01() -> usize {
     let input = BufReader::new(input_file);
     let numbers: Vec<usize> = input
         .lines()
-        .map(|s| s.unwrap().parse().ok().unwrap())
+        .map(|s| s.unwrap().parse().unwrap())
         .collect();
     //println!("{:?}", numbers);
 
