@@ -8,8 +8,8 @@ fn main() {
         day_01::challenge_01()
     );
 
-    println!(
-        "\nDay 02: The product of the two entries summing to 2020 is equal to: {}",
-        day_01::challenge_01()
-    );
+    // println!(
+    //     "\nDay 02: xxx: {}",
+    //     day_01::challenge_02()
+    // );
 }
