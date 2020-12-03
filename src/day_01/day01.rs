@@ -20,3 +20,25 @@ pub fn challenge_01() -> usize {
 
     prod
 }
+
+pub fn challenge_02() -> usize {
+    let input_file = File::open("./src/day_01/input.txt").unwrap();
+    let input = BufReader::new(input_file);
+    let numbers: Vec<usize> = input.lines().map(|s| s.unwrap().parse().unwrap()).collect();
+    //println!("Vector of numbers: {:?}", numbers);
+
+    let mut prod = 0;
+    'outer: for num1 in &numbers {
+        for num2 in &numbers {
+            for num3 in &numbers {
+                if num1 + num2 + num3 == 2020 {
+                    //println!("First entry: {} and second entry: {}\n", &num1, &num2);
+                    prod = num1 * num2 * num3;
+                    break 'outer;
+                }
+            }
+        }
+    }
+
+    prod
+}
