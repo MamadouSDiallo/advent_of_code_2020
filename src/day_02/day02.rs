@@ -28,10 +28,10 @@ pub fn challenge_01() -> u32 {
             false => valid_count + 0,
         };
 
-        println!(
-            "{:?} -- {:?} -- {:?} -- {:?} -- {:?}",
-            min, max, letter, password, letter_count
-        );
+        // println!(
+        //     "{:?} -- {:?} -- {:?} -- {:?} -- {:?}",
+        //     min, max, letter, password, letter_count
+        // );
     }
 
     // println!("{:?}", codes);
