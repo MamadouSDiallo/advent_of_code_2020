@@ -16,7 +16,11 @@ fn main() {
 
     println!("\nDay 2 challenges");
     println!(
-        "The product of the two entries summing to 2020 is equal to: {}",
+        "Number of valid passwords based on old policy: {}",
         day_02::challenge_01()
+    );
+    println!(
+        "Number of passwords based on the new policy: {}",
+        day_02::challenge_02()
     );
 }
