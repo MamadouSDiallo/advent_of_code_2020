@@ -1,5 +1,5 @@
 #[allow(unused_imports)]
-use advent2020::{day_01, day_02};
+use advent2020::{day_01, day_02, day_03};
 
 fn main() {
     println!("Advent Code 2020");
@@ -14,13 +14,23 @@ fn main() {
     //     day_01::challenge_02()
     // );
 
-    println!("\nDay 2 challenges");
+    // println!("\nDay 2 challenges");
+    // println!(
+    //     "Number of valid passwords based on old policy: {}",
+    //     day_02::challenge_01()
+    // );
+    // println!(
+    //     "Number of passwords based on the new policy: {}",
+    //     day_02::challenge_02()
+    // );
+
+    println!("\nDay 3 challenges");
     println!(
         "Number of valid passwords based on old policy: {}",
-        day_02::challenge_01()
+        day_03::challenge_01()
     );
-    println!(
-        "Number of passwords based on the new policy: {}",
-        day_02::challenge_02()
-    );
+    // println!(
+    //     "Number of passwords based on the new policy: {}",
+    //     day_03::challenge_02()
+    // );
 }
