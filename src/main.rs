@@ -26,11 +26,11 @@ fn main() {
 
     println!("\nDay 3 challenges");
     println!(
-        "Number of valid passwords based on old policy: {}",
-        day_03::challenge_01()
+        "Number of trees encountered: {}",
+        day_03::challenge_01(3, 1)
     );
-    // println!(
-    //     "Number of passwords based on the new policy: {}",
-    //     day_03::challenge_02()
-    // );
+    println!(
+        "Product of the 5 number of trees encountered: {}",
+        day_03::challenge_02()
+    );
 }
