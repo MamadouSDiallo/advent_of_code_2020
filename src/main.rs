@@ -49,9 +49,6 @@ fn main() {
     // );
 
     println!("\nDay 6 challenges");
-    println!("Maximun seat ID number: {}", day_06::challenge_01());
-    println!(
-        "My seat ID is: {}",
-        day_06::challenge_02()
-    );
+    println!("Anyone yes: {}", day_06::challenge_01());
+    println!("Everyone yes: {}", day_06::challenge_02());
 }
