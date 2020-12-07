@@ -42,9 +42,9 @@ fn main() {
     // );
 
     println!("\nDay 5 challenges");
-    println!("Number of valid passports: {}", day_05::challenge_01());
+    println!("Maximun seat ID number: {}", day_05::challenge_01());
     println!(
-        "Number of valid passports under strict rules: {}",
+        "My seat ID is: {}",
         day_05::challenge_02()
     );
 }
