@@ -13,5 +13,5 @@ pub fn challenge_01() -> usize {
 }
 
 pub fn challenge_02() -> usize {
-    7
+    5
 }
