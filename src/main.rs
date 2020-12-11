@@ -69,8 +69,8 @@ fn main() {
 
     println!("\nDay 10 challenges");
     println!(
-        "First number without the property: {:?}",
+        "Product of number of 1-jolt by number of 3-jolt: {:?}",
         day_10::challenge_01()
     );
-    println!("Encryption weakness: {:?}", day_10::challenge_02())
+    println!("Number of distincts ways: {:?}", day_10::challenge_02())
 }
