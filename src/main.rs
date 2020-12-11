@@ -1,5 +1,5 @@
 #[allow(unused_imports)]
-use advent2020::{day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09};
+use advent2020::{day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10};
 
 fn main() {
     println!("Advent Code 2020");
@@ -60,10 +60,17 @@ fn main() {
     // println!("Initial accumulator: {:?}", day_08::challenge_01());
     // println!("Fixed accumator: {:?}", day_08::challenge_02());
 
-    println!("\nDay 9 challenges");
+    // println!("\nDay 9 challenges");
+    // println!(
+    //     "First number without the property: {:?}",
+    //     day_09::challenge_01()
+    // );
+    // println!("Encryption weakness: {:?}", day_09::challenge_02())
+
+    println!("\nDay 10 challenges");
     println!(
         "First number without the property: {:?}",
-        day_09::challenge_01()
+        day_10::challenge_01()
     );
-    println!("Encryption weakness: {:?}", day_09::challenge_02())
+    println!("Encryption weakness: {:?}", day_10::challenge_02())
 }
