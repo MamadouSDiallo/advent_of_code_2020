@@ -1,5 +1,7 @@
 #[allow(unused_imports)]
-use advent2020::{day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10};
+use advent2020::{
+    day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10, day_11,
+};
 
 fn main() {
     println!("Advent Code 2020");
@@ -67,10 +69,14 @@ fn main() {
     // );
     // println!("Encryption weakness: {:?}", day_09::challenge_02())
 
-    println!("\nDay 10 challenges");
-    println!(
-        "Product of number of 1-jolt by number of 3-jolt: {:?}",
-        day_10::challenge_01()
-    );
-    println!("Number of distincts ways: {:?}", day_10::challenge_02())
+    // println!("\nDay 10 challenges");
+    // println!(
+    //     "Product of number of 1-jolt by number of 3-jolt: {:?}",
+    //     day_10::challenge_01()
+    // );
+    // println!("Number of distincts ways: {:?}", day_10::challenge_02())
+
+    println!("\nDay 11 challenges");
+    println!("Number of seats occupied: {:?}", day_11::challenge_01());
+    println!("Number of seats  occupied: {:?}", day_11::challenge_02())
 }
