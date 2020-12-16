@@ -1,6 +1,6 @@
 #[allow(unused_imports)]
 use advent2020::{
-    day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10, day_11,
+    day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10, day_11, day_12,
 };
 
 fn main() {
@@ -76,7 +76,11 @@ fn main() {
     // );
     // println!("Number of distincts ways: {:?}", day_10::challenge_02())
 
-    println!("\nDay 11 challenges");
-    println!("Number of seats occupied: {:?}", day_11::challenge_01());
-    println!("Number of seats  occupied: {:?}", day_11::challenge_02())
+    // println!("\nday 11 challenges");
+    // println!("number of seats occupied: {:?}", day_11::challenge_01());
+    // println!("number of seats  occupied: {:?}", day_11::challenge_02())
+
+    println!("\nDay 12 challenges");
+    println!("Number of seats occupied: {:?}", day_12::challenge_01());
+    println!("Number of seats  occupied: {:?}", day_12::challenge_02())
 }
