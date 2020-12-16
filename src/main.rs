@@ -81,6 +81,12 @@ fn main() {
     // println!("number of seats  occupied: {:?}", day_11::challenge_02())
 
     println!("\nDay 12 challenges");
-    println!("Number of seats occupied: {:?}", day_12::challenge_01());
-    println!("Number of seats  occupied: {:?}", day_12::challenge_02())
+    println!(
+        "Manhattan between ship and origin (1): {:?}",
+        day_12::challenge_01()
+    );
+    println!(
+        "Manhattan between ship and origin (2): {:?}",
+        day_12::challenge_02()
+    )
 }
