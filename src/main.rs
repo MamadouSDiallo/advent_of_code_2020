@@ -1,7 +1,7 @@
 #[allow(unused_imports)]
 use advent2020::{
     day_01, day_02, day_03, day_04, day_05, day_06, day_07, day_08, day_09, day_10, day_11, day_12,
-    day_13,
+    day_13, day_14,
 };
 
 fn main() {
@@ -91,15 +91,12 @@ fn main() {
     //     day_12::challenge_02()
     // )
 
-    println!("\nDay 13 challenges");
-    println!("{:?}", day_13::challenge_01());
-    println!("{:?}", day_13::challenge_02())
+    // println!("\nDay 13 challenges");
+    // println!("{:?}", day_13::challenge_01());
+    // println!("{:?}", day_13::challenge_02())
 
-    // println!("\nDay 14 challenges");
-    // println!(
-    //     "Manhattan between ship and origin (1): {:?}",
-    //     day_14::challenge_01()
-    // );
+    println!("\nDay 14 challenges");
+    println!("Value in memory: {:?}", day_14::challenge_01());
     // println!(
     //     "Manhattan between ship and origin (2): {:?}",
     //     day_14::challenge_02()

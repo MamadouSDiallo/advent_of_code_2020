@@ -50,3 +50,7 @@ pub mod day_13 {
     mod day13;
     pub use crate::day_13::day13::{challenge_01, challenge_02};
 }
+pub mod day_14 {
+    mod day14;
+    pub use crate::day_14::day14::{challenge_01, challenge_02};
+}
