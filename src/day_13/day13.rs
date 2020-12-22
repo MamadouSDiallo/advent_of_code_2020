@@ -30,7 +30,7 @@ pub fn challenge_02() {
     let input = BufReader::new(input_file);
     let mut lines = input.lines();
 
-    let timestamp = lines.next().unwrap().unwrap().parse::<usize>().unwrap();
+    // let timestamp = lines.next().unwrap().unwrap().parse::<usize>().unwrap();
     let lineup = lines.next().unwrap().unwrap();
     //    let departure_time = lineup.split("").fold(0, |acc| x+acc);
 

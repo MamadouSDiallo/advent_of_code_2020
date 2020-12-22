@@ -2,7 +2,6 @@ use std::{
     collections::HashMap,
     fs::File,
     io::{BufRead, BufReader},
-    todo,
 };
 
 fn convert_to_base2(num: usize) -> Vec<char> {
@@ -95,7 +94,7 @@ pub fn challenge_01() -> usize {
 }
 
 fn write_memory_values(
-    mem_address_values: &HashMap<usize, usize>,
+    mem_address_values: &mut HashMap<usize, usize>,
     mem_address: usize,
     mask: &Vec<char>,
 ) {
@@ -142,16 +141,14 @@ pub fn challenge_02() {
                 .parse::<usize>()
                 .unwrap();
 
-            let mut mem_value = mem.next().unwrap().trim().parse::<usize>().unwrap();
+            // let mut mem_value = mem.next().unwrap().trim().parse::<usize>().unwrap();
+            // mem_value = 0;
 
-            mem_value = 0;
-
-            write_memory_values(&mem_values, mem_address, &mask);
+            write_memory_values(&mut mem_values, mem_address, &mask);
         }
     }
-    let mut tot_mem_val = 0;
-    for (_, v) in mem_values {
-        tot_mem_val += v;
-    }
-    tot_mem_val
+    // let mut tot_mem_val = 0;
+    // for (_, v) in mem_values {
+    //     tot_mem_val += v;
+    // }
 }
