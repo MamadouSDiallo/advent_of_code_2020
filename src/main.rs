@@ -110,6 +110,6 @@ fn main() {
     // )
 
     println!("\nDay 16 challenges");
-    println!(" {:?}", day_16::challenge_01());
-    println!(" {:?}", day_16::challenge_02());
+    println!("Challenge 1 {:?}", day_16::challenge_01());
+    println!("Challenge 2 {:?}", day_16::challenge_02());
 }
